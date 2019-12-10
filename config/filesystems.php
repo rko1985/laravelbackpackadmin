@@ -66,4 +66,10 @@ return [
 
     ],
 
+    // used for Backpack/LogManager
+    'storage' => [
+        'driver' => 'local',
+        'root'   => storage_path(),
+    ],
+
 ];
