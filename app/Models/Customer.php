@@ -34,7 +34,9 @@ class Customer extends Model
     | RELATIONS
     |--------------------------------------------------------------------------
     */
-
+    public function tag(){
+        return $this->belongsTo('App\Models\Tag');
+    }
     /*
     |--------------------------------------------------------------------------
     | SCOPES
